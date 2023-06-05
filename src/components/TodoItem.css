@@ -1,0 +1,36 @@
+.todo{
+    background-color: lightgray;
+    width: 100%;
+    margin: 15px auto;
+    /* padding: 7px 0; */
+    border: 1px solid green;
+    border-radius: 14px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.todo_title{
+    background-color: green;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    text-align: start;
+    padding: 10px 22px;
+    color: white;
+    margin: 0;
+    text-transform: capitalize;
+}
+.todo_category{
+    padding: 0px 14px;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: left;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.4);
+}
+.todo_date{
+    margin-bottom: 0;
+    text-align: right;
+    padding: 0px 14px;
+    font-size: 16px;
+    border-top: 1px solid green;
+}
