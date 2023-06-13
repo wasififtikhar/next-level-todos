@@ -4,7 +4,11 @@ import TodoItem from "./TodoItem";
 import './Todo.css'
 
 const Todos = (props) => {
+  const acceptSearchItem = searchItem => {
+    props.sentTodoItemToApp(searchItem);
+  }
   return (
+
     <div>
     {props.todos.map(todo => (
       <TodoItem
@@ -12,6 +16,7 @@ const Todos = (props) => {
         category={todo.category}
         date={todo.date}
         key={todo.id}
+        sentItemToApp={acceptSearchItem}
       />
     ))}
       {/* <TodoItem

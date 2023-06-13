@@ -3,6 +3,9 @@ import React from "react";
 import "./TodoItem.css";
 
 const TodoItem = (props) => {
+  // const items = [props.item]
+  // console.log(items);
+  props.sentItemToApp(props.item);
   return (
       <div className="todo">
         <h1 className="todo_title">{props.item}</h1>

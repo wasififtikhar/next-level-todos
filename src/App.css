@@ -46,6 +46,17 @@
   height: 500px;
   overflow-y: scroll;
 }
+@media (max-width: 767.98px) { 
+  .todos {
+    width: 80%;
+  }
+ }
+
+ @media (max-width: 991.98px) { 
+  .todos {
+    width: 78%;
+  }
+  }
 
 .heading{
  margin-top: 0;
